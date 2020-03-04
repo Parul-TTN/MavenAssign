@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="withArchType" />
-        <module name="M2" />
-        <module name="M1" />
+        <module name="Module2" />
+        <module name="Module1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="M1" target="1.5" />
+      <module name="M2" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
